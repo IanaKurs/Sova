@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'LaoMuangKhong';
+    src: url('font_x/lao-muang-khong/ofont.ru_AV Fontimer.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeagueScript';
+    src: url('font_x/lao-muang-khong/LeagueScript-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    background-color:rgb(249, 227, 214);
+    padding: 0;
+    margin: 0;
+    font-family: 'LaoMuangKhong';
+    max-width: 1922px;
+    /* width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0; */
+
+
+}
+
+
+.header{
+    background: linear-gradient(180.00deg, rgba(255, 0, 39, 0.25),rgba(249, 227, 214, 0.33) 100%);
+    padding-top: 46px;
+    padding-left: 67px;
+    padding-bottom: 13px;
+    
+    width: 1850px;
+
+
+}
+.nav{
+    font-size: 50px;
+    
+}
+.header_inner{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color:black;
+    text-decoration: none;
+    transition: color .2s linear;
+    position: relative;
+}
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+
+}
+
+    
+.container_inner{
+    display: flex;
+    justify-items: center;
+    padding-left: 266px;
+    padding-right: 132px;
+}
+.container{
+    width: 1920px;
+
+    margin: 0 auto;
+    font-size: 0;
+    background: url('src/wreath.png') no-repeat ;
+
+   
+
+    padding-top: 55px;
+    /* padding-bottom: 889px; */
+  
+    /* background-position: bottom; */
+    background-position: center bottom 45px;
+
+}
+.mood{
+    font-family: 'LeagueScript';
+    position: relative;
+    display: inline-block;
+    font-size: 150px;
+    padding-top: 50px;
+}
+.book{
+    font-family: 'LeagueScript';
+    position: relative;
+    display: inline-block;
+    font-size: 100px;
+    padding-top: 50px;
+}
+.mood:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.book:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.sova{
+    display: inline-block;
+    padding-bottom: 595px;
+
+}
+.marker{
+    background-image: url('src/marker.svg') ;
+    
+    position: relative;
+    align-self: flex-end;
+    
+    background-position: center left 5px;
+    width: 1499px;
+    height: 370px;
+
+    display: flex;
+    bottom: 0;
+    
+}
+.marker_1{
+    font-size: 70px;
+    padding-left: 95px;
+    padding-top: 50px;
+
+
+}
+.colendarz{
+    display: flex;
+    justify-items: flex-start;
+    padding-top: 36px;
+}
+.table{
+    padding-left: 79px;
+    padding-right: 55px;
+    
+    width: 1280px;
+    height: 960px;
+
+}
+.raport{
+    width: 1251px;
+    height: auto;
+    display: flex;
+    justify-items: flex-start;
+    padding-left: 79px;
+    padding-top: 178px;
+
+}
+.report{
+    
+    padding-left: 70px;
+    
+    
+}
+.cart{
+    padding-left: 34px;
+}
+.image{
+    padding-top: 44px;
+}
+.text{
+    float: left;
+    font-size: 55px;
+    color: black;
+    width: 756px;
+    height: auto;
+    background-color: rgba(255, 250, 241, 0.47);
+    padding-top: 20px;
+}
+.fix{
+    height: auto;
+}
+.tea{
+    height: 627px;
+    width: 1920px;
+    display: flex;
+    justify-items: flex-start;
+
+}
+.sova_1{
+    padding-left: 337px;
+    padding-top: 116px;
+}
+.fix_2{
+    padding-top: 147px;
+}
+.mark_2{
+    padding-top: 80px;
+    font-size: 60px;
+    padding-left: 170px;
+    width: 530px;
+    height: 205px;
+}
+.mark_1{
+    width: 750px;
+    height: 390px; 
+    background-image: url("src/Vector 183.svg") ;
+}
+.footer{
+    height: 537px;
+    background: linear-gradient(180.00deg, rgba(249, 227, 214, 0.83) -7.682%,rgba(155, 155, 193, 0.83) 100%);
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+  
+    
+    
+}
+.footer_inner{
+    align-content: center;
+}
+.Spbu{
+    
+    display: flex;
+    padding-top: 75px;
+    font-size: 60px;
+    color: #fff;
+    width: 600px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.nav__link{
+    padding-top: 13px;
+    font-size: 55px;
+    color: #fff;
+    text-decoration: none;
+}
+.navigetion{
+    display: flex;
+    flex-direction: column;
+    
+    
+}

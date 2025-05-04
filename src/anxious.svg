@@ -1,0 +1,15 @@
+<svg width="55.894531" height="55.894531" viewBox="0 0 55.8945 55.8945" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="27.947086" y1="0.000000" x2="27.947086" y2="35.000042" id="paint_linear_63_142_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#3F4D6E"/>
+			<stop offset="1.000000" stop-color="#8BA3C7"/>
+		</linearGradient>
+	</defs>
+	<circle id="Ellipse 50" cx="27.947266" cy="27.947266" r="27.947083" fill="url(#paint_linear_63_142_0)" fill-opacity="1.000000"/>
+	<path id="Vector 160" d="M14 44L17 40.5L21.5 44.5L27.5 40.5L32.5 44.5L38 40L41 44" stroke="#000000" stroke-opacity="1.000000" stroke-width="4.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	<circle id="Ellipse 59" cx="17.000000" cy="26.000000" r="4.000000" fill="#000000" fill-opacity="1.000000"/>
+	<circle id="Ellipse 60" cx="39.000000" cy="26.000000" r="4.000000" fill="#000000" fill-opacity="1.000000"/>
+</svg>

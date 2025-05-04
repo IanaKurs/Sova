@@ -1,0 +1,13 @@
+
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "modules": false // отключает преобразование модулей ES6 в CommonJS
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  }
+  

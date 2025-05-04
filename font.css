@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lao_Muang_Khong";
+    
+    
+    src: url("./LaoMuangKhong-Regular.woff") format("woff"); 
+    font-style: normal;
+}
+.op{
+    font-family: 'Lao_Muang_Khong';
+    color: aqua;
+}
