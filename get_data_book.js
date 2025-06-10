@@ -47,18 +47,18 @@ $(document).ready(function () {
     e.preventDefault();
     const title = $(this).data("title");
     const content = $(this).data("content");
-    $("#modalTitle").text(title);
-    $("#modalContent").text(content);
-    $("#bookModal").addClass("modal_active");
+    $("#modalTitle1").text(title);
+    $("#modalContent1").text(content);
+    $("#bookModal1").addClass("modal_active");
   });
 
   // Закрытие модалки
-  $(".modal__close-button").on("click", function () {
-    $("#bookModal").removeClass("modal_active");
+  $(".modal__close-button1").on("click", function () {
+    $("#bookModal1").removeClass("modal_active");
   });
-  $("#bookModal").on("click", function (e) {
+  $("#bookModal1").on("click", function (e) {
     if (e.target === this) {
-      $("#bookModal").removeClass("modal_active");
+      $("#bookModal1").removeClass("modal_active");
     }
   });
 
