@@ -17,9 +17,29 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* @media (max-width: 960px){
+.header{
+display: flex;
+justify-content: space-between;
+    
+background-color: #F9E3D6;
+font-family: 'LeagueScript';
+padding-left: 60px;
+padding-top: 20px;
+padding-right: 60px;
+}
+.own{
+width: 100px;
+height: 100px;
+}
+
+    
+} */
 body{
     background-color: #F9E3D6;
     font-family: 'LaoMuangKhong';
+    overflow: hidden;
 }
 .header{
     display: flex;
@@ -27,13 +47,13 @@ body{
     
     background-color: #F9E3D6;
     font-family: 'LeagueScript';
-    padding-left: 50px;
+    padding-left: 200px;
     padding-top: 30px;
-    padding-right: 50px;
+    padding-right: 200px;
 }
 .own{
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     
 
 }
@@ -41,7 +61,7 @@ body{
     align-items: flex-end;
 }
 .mood{
-    font-size: 110px;
+    font-size: 90px;
     padding-top: 20px;
     
     font-family: 'LeagueScript';
@@ -51,7 +71,7 @@ body{
     
 }
 .book{
-    font-size: 110px;
+    font-size: 90px;
     padding-top: 20px;
 
     position: relative;
@@ -81,8 +101,8 @@ body{
 }
 .static{
     display: block;
-    width: 230px;
-    height: 290px;
+    width: 180px;
+    height: 210px;
     
 }
 .question{
@@ -91,7 +111,7 @@ body{
 }
 .tea{
     padding-top: 35px;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-right: 100px;
     flex-direction: row;
     display: flex;
@@ -105,8 +125,8 @@ body{
     flex-direction: column;
 }
 .new_title{
-   width: 230px;
-   height: 290px;
+   width: 180px;
+   height: 210px;
    border-width: 10px;
    border-color: black;
    padding-top: 30px;
@@ -167,10 +187,10 @@ form{
 }
 .forma{
     background-color: rgb(252, 242, 225);
-    width: 1200px;
-    height: 600px;
+    width: 800px;
+    height: 500px;
     display: flex;
-    font-size: 40px;
+    font-size: 27px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
    
@@ -184,23 +204,26 @@ form{
 
 }
 .data_4{
-    width: 1000px;
+    /* width: 1000px; */
 }
 .data_1{
-    height: 200px;
+    height: 100px;
     background-color: rgb(247, 185, 188);
-    width: 1200px;
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 input[type=data]{
     background-color: rgb(247, 185, 188);
-    width: 300px;
-    height: 80px;
-    display: block;
-    position: relative;
-    font-size: 50px;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    padding-top: 50px;
+    border: none;
+    font-size: 30px;
+    align-items: flex-end;
     
 }
 .data_2{
@@ -213,10 +236,12 @@ input[type=data]{
 }
 .button_1{
     width: 100px;
-    height: 50px;
+    height: 60px;
     background-color: rgb(247, 185, 188);
     border-radius: 20px;
     padding-left: 200px;
+    display: flex;
+    justify-self: center;
 }
 
 .List{
@@ -280,18 +305,18 @@ input[type=data]{
     border-radius: 20px;
     border: 2px solid rgb(158, 156, 156);
 }
-.list_naw_2{
+/* .list_naw_2{
     background-color: rgb(218, 205, 182); 
     width: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 30px solid rgb(252, 242, 225);
-    height: 480px;
+    height: 420px;
     
     overflow:hidden; 
 
-}
+} */
 textarea {
     background-color: rgb(218, 205, 182); 
     width: 670px;
@@ -300,9 +325,40 @@ textarea {
     justify-content: center;
     font-size: 30px;
     /* border: 30px solid ; */
-    height: 420px;
+    height: 360px;
     resize: none;
     overflow:hidden; 
+    border: 5px solid rgb(252, 242, 225) ;
+    outline: none;
+    border-left: 20px solid rgb(252, 242, 225);
+    padding-left: 20px;
+    border-right: 20px solid rgb(252, 242, 225);
+    
+}
+#name_list{
+    background-color: rgb(218, 205, 182); 
+    width: 670px;
+    border: 5px solid rgb(252, 242, 225);
+    border-left: 20px solid rgb(252, 242, 225);
+    border-top: 20px solid rgb(252, 242, 225);
+    border-right: 20px solid rgb(252, 242, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    /* border: 30px solid ; */
+    height: 80px;
+    resize: none;
+    overflow:hidden; 
+}
+#content{
+    width: 380px;
+    height: 300px;
+}
+#content_2{
+    width: 380px;
+    height: 300px;
+    
 }
 .container {
     display: inline-block;
@@ -398,4 +454,9 @@ pre {
     border-left: 1px solid #F59BA9;
     border-top: 1px solid #F59BA9;
     border-right: 1px solid #F59BA9;
+}
+.data_naw{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
 }
